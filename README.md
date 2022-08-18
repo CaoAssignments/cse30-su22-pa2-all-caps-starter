@@ -178,23 +178,6 @@ Now let’s take a closer look at each step of the program.
 - You are **NOT** allowed to use any external functions (like `toUpper`) except for `putchar`.
 - You should only print out the actual string value. That's said, you should not print out the null terminator. (Remember a string in C is an array of `char`s ended with a null terminator. ) You may use the method described in *Hex Mode* section to help you test your code.
 
-#### C Question
-
-5. Assume you have the following C code:
-    ```c 
-    long nums[] = {1, 7, 13, 18};
-    ```
-    What is another way to store the value at the second index of nums into a `long x` other than with `long x = nums[2]` (Hint: think about pointer manipulation)?
-
-#### Terminal Question
-
-6. In a terminal, from your `pa2` directory, what single-line command (or chain of commands) would print exactly one number that indicates the number of files in the current directory (doesn't need to count files in subdirectories) and do nothing else? You do not need to count hidden files. You may assume 1 directory is 1 file.
-
-#### Academic Integrity Question
-
-7. What would you do to ensure integrity if you find out a major logical issue with the code while the deadline is in several hours?
-
-
 ## Grading
 
 #### Style: 0 points (won't be graded)
